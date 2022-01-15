@@ -1,5 +1,11 @@
+
+/*-------------
+ google fonts add
+ ---------------- */
+
+
 {
-    font-family: "Poppins", sans-serif;
+    font-family: 
     font-weight: 400;
     padding-left: 0%;
     margin: 0%;
@@ -19,7 +25,9 @@ h4 {
     margin: 0 auto;
 }
 
-/* main-header start  */
+/* -------------
+main-header start
+----------------  */
 .logo h3 {
     font-size: 24px;
     font-weight: 700;
@@ -51,9 +59,13 @@ h4 {
     margin-top: 20px;
 }
 
-/* main-header end  */
+/* ----------------
+main-header end
+---------------- */
 
-/* Influencer section start  */
+/*----------------
+Influencer section start
+ ----------------*/
 .text {
     width: 582px;
 }
@@ -96,9 +108,13 @@ h4 {
     margin-top: 50px;
 }
 
-/* Influencer section start  */
+/*----------------
+ Influencer section start
+ ---------------- */
 
-/* brand-logo section start */
+/*----------------
+ brand-logo section start
+ ----------------*/
 .brand-logo {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -112,9 +128,13 @@ h4 {
     margin-bottom: 100px;
 }
 
-/* brand-logo section end */
+/*----------------
+brand-logo section end 
+--------------*/
 
-/* Popular Collection section start */
+/* ---------------- 
+Popular Collection section start 
+---------------- */
 .popular-collection h2 {
     font-weight: 600;
     text-align: center;
@@ -162,12 +182,17 @@ h4 {
     grid-gap: 30px;
     justify-items: center;
 }
+ 
 
-/* Popular Collection section end */
+/* ----------------
+Popular Collection section end 
+----------------*/
 
-/* footer-section start */
+/*----------------
+footer-section start
+---------------- */
 .main-footer {
-    background-color: #0a0826;
+    background-color: #023235;
     color: #ffffff;
     text-align: center;
     padding: 50px;
@@ -193,4 +218,6 @@ h4 {
     padding-top: 16px;
 }
 
-/* footer-section end */
+/*----------------
+ footer-section end
+ ---------------- */
