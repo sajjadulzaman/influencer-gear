@@ -1,14 +1,196 @@
-
-/*----------------------
- font style add
- -------------- */
- @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
-body{
-font-family: 'Roboto Slab',
-serif;
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-left: 0%;
+    margin: 0%;
 }
-.mah {
+
+body {}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #3a3a3a;
+}
+
+.containar {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* main-header start  */
+.logo h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar ul {
     display: flex;
-    justify-content:space-between;
-
 }
+
+.navbar ul li {
+    list-style: none;
+    padding-left: 34px;
+    cursor: pointer;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #3a3a3a;
+    list-style: none;
+    font-weight: 600px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* main-header end  */
+
+/* Influencer section start  */
+.text {
+    width: 582px;
+}
+
+.text h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.text p {
+    font-size: 16px;
+    color: #3a3a3a;
+    font-weight: 600;
+    padding: 16px 0px;
+}
+
+.btn {
+    background-color: #e02c6d;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 41px;
+}
+
+.camera img {
+    padding-left: 15px;
+    width: 440px;
+    padding: 30px;
+}
+
+.influencer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 50px;
+}
+
+/* Influencer section start  */
+
+/* brand-logo section start */
+.brand-logo {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 60px;
+    justify-items: center;
+    align-items: center;
+    padding: 30px;
+    border-top: 1px solid#c0ccda85;
+    border-bottom: 1px solid#c0ccda85;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+/* brand-logo section end */
+
+/* Popular Collection section start */
+.popular-collection h2 {
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.product img {
+    width: 300px;
+}
+
+.product h3 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 16px;
+}
+
+.product h4 {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.star {
+    color: #fb8200;
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.low {
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+}
+
+.product {
+    width: 300px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 17px 15px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+/* Popular Collection section end */
+
+/* footer-section start */
+.main-footer {
+    background-color: #0a0826;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+.main-footer h3 {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 5px;
+}
+
+.main-footer p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.icon,
+.fab {
+    font-size: 32px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+/* footer-section end */
